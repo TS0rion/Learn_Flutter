@@ -5,11 +5,11 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        // body: GradientContainer(
-        //   const Color.fromARGB(255, 19, 150, 72),
-        //   const Color.fromARGB(66, 207, 31, 31),
-        // ),
-        body: GradientContainer.purple(),
+        body: GradientContainer(
+          const Color.fromARGB(255, 19, 150, 72),
+          const Color.fromARGB(66, 207, 31, 31),
+        ),
+        // body: GradientContainer.purple(),
       ),
     ),
   );
